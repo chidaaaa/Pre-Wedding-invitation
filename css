@@ -1,0 +1,99 @@
+  
+  <style>
+
+    body {
+      background: linear-gradient(135deg, #f8cdda, #f1f4f9);
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .invite-card {
+      max-width: 550px;
+      background: #ffffff;
+      border-radius: 25px;
+      padding: 40px 30px;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+    }
+
+    .title {
+      font-family: 'Playfair Display', serif;
+      letter-spacing: 2px;
+      color: #999;
+    }
+
+    .names {
+      font-family: 'Great Vibes', cursive;
+      font-size: 48px;
+      color: #c2185b;
+    }
+
+    .heart {
+      font-size: 22px;
+      color: #c2185b;
+    }
+
+    .divider {
+      width: 80px;
+      height: 3px;
+      background: #c2185b;
+      margin: 20px auto;
+      border-radius: 10px;
+    }
+
+    .details {
+      font-family: 'Playfair Display', serif;
+      font-size: 18px;
+    }
+
+    .btn-rsvp {
+      background-color: #c2185b;
+      color: #fff;
+      border-radius: 30px;
+      padding: 10px 30px;
+    }
+
+    .btn-rsvp:hover {
+      background-color: #a3154c;
+      color: #fff;
+    }
+  </style>
+
+
+
+  <style>
+/* Carousel animation */
+.carousel-item {
+  transition: transform 0.8s ease-in-out, opacity 0.8s ease-in-out;
+}
+
+/* Fade + slide animation */
+.carousel-item.active {
+  animation: fadeSlide 0.9s ease-in-out;
+}
+
+@keyframes fadeSlide {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Optional zoom effect for headings */
+.carousel-item h6 {
+  animation: zoomIn 0.6s ease-in-out;
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+</style>
